@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Wordlist Generator — built step by step.
+HackRack Wordlist Generator — interactive wordlist generation for penetration testing.
 Step 4: After collecting strings, generate all case variations
         and write them to temp/string_cache.txt.
 """

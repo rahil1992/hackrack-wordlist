@@ -20,14 +20,42 @@ An interactive terminal wordlist generator with three powerful modes: custom sma
 
 ---
 
-## Requirements
+## Installation
 
-- Python 3.10+
-- No external dependencies — stdlib only
+### Method 1 — Install as a system command (recommended on Kali Linux)
 
 ```bash
-python main.py
+git clone https://github.com/youruser/hackrack-wordlist-generator
+cd hackrack-wordlist-generator
+sudo bash install.sh
 ```
+
+After that, run from anywhere:
+
+```bash
+hackrack-wordlist
+```
+
+To uninstall:
+
+```bash
+pip3 uninstall hackrack-wordlist
+```
+
+### Method 2 — pip install manually
+
+```bash
+pip3 install -e .
+hackrack-wordlist
+```
+
+### Method 3 — Run directly (no install)
+
+```bash
+python3 main.py
+```
+
+**Requirements:** Python 3.10+ · No third-party dependencies (stdlib only)
 
 ---
 
